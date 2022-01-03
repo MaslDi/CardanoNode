@@ -2,14 +2,14 @@
 Create Node, integrate mnemoric phrases (wallets) and send transactions
 
 
-# Setup Cardano Node 
+## Setup Cardano Node 
 -> settingUpNode.md
 https://developers.cardano.org/docs/get-started/running-cardano/
 
-# Run Cardano Node
+## Run Cardano Node
 -> runningNode.md
 
-# Generate Keys for transaction (Mnemoics from Nami or Yoroi Wallet)
+## Generate Keys for transaction (Mnemoics from Nami or Yoroi Wallet)
 ./convMnemonic2Keys.sh <mnemonicsinputfile> <outputname>
 
 for example:
@@ -23,7 +23,7 @@ generates:
   test.staking.skey
   test.staking.vkey
   
-# Send transaction
+## Send transaction
 https://github.com/gitmachtl/scripts
 
   git clone https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet
