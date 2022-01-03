@@ -1,5 +1,4 @@
-# CardanoNode
-Create Node, integrate mnemoric phrases (wallets) and send transactions
+
 
 Minimal Cardano node requirements:
 16 GB Memory / 50 GB Disk
