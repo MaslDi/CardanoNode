@@ -11,7 +11,7 @@ https://developers.cardano.org/docs/get-started/running-cardano/
 
 ## Generate Keys for transaction (Mnemoics from Nami or Yoroi Wallet)
 
-./convMnemonic2Keys.sh <mnemonicsinputfile> <outputname>
+./convMnemonic2Keys.sh < mnemonicsinputfile > < outputname >
 
 for example:
 
