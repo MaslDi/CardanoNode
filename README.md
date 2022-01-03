@@ -10,21 +10,24 @@ https://developers.cardano.org/docs/get-started/running-cardano/
 -> runningNode.md
 
 ## Generate Keys for transaction (Mnemoics from Nami or Yoroi Wallet)
+
 ./convMnemonic2Keys.sh <mnemonicsinputfile> <outputname>
 
 for example:
-./convMnemonic2Keys.sh testmnemonics.txt test
+
+  ./convMnemonic2Keys.sh testmnemonics.txt test
   
 generates:
-  test.payment.addr
-  test.payment.skey
-  test.payment.vkey
-  test.staking.addr
-  test.staking.skey
-  test.staking.vkey
+  - test.payment.addr
+  - test.payment.skey
+  - test.payment.vkey
+  - test.staking.addr
+  - test.staking.skey
+  - test.staking.vkey
   
 ## Send transaction
-https://github.com/gitmachtl/scripts
+
+  https://github.com/gitmachtl/scripts
 
   git clone https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet
   
