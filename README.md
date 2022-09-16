@@ -32,7 +32,7 @@ generates:
   
 ## Send transaction
 
-https://github.com/gitmachtl/scripts
+https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet  (Lot of scripts with different functions)
 
 ```
 git clone https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet
@@ -42,12 +42,13 @@ Change settings in 00_common.sh to your settup
 
 Node has to be running and in synch. Query your test address:
 
+For example - queryAddress:
 ```
 ./01_queryAddress.sh test.payment.addr
 ```
 
+For example - send ADA to another address: 
 Send 2 ADA from your address to a random one:
-
 ```
 ./01_sendLovelaces.sh test.payment.addr addr1qXYZ.... 2000000
 ```
