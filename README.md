@@ -15,12 +15,7 @@ https://developers.cardano.org/docs/get-started/running-cardano/
 
 ./convMnemonic2Keys.sh < mnemonicsinputfile > < outputname >
 
-for example:
-
-```
-touch testmnemonics.txt
-```
--> input mnemonic in this file
+-> input mnemonic into testmnemonics.txt
 
 run sh script
 ```
