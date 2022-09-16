@@ -1,7 +1,7 @@
 # CardanoNode
 
 ## Run your Node on your host addr according to your ipv4 / 6 address
-
+```
 cardano-node run \
    --topology mainnet-topology.json \
    --database-path cardano/db \
@@ -9,12 +9,14 @@ cardano-node run \
    --host-addr 137.184.68.153 \
    --port 1337 \
    --config mainnet-config.json
+```
+... for host-addr use your ipv4 address
    
 
 ## Syn is starting and it will take a couple hours. After sync is done open new terminal and check blockchain status.
-
+```
 cardano-cli query tip --mainnet
-
+```
 
 Should look like:
 {
@@ -34,10 +36,7 @@ cardano-cli: Network.Socket.connect: <socket: 11>: does not exist (No such file 
 then Node is not started yet. You might wait until it starts (max 30mins)
 
 
-
-
-Cardano Syn Pools:
-https://a.adapools.org/topology?limit=50
+Note, not necessary Cardano Syn Pools: https://a.adapools.org/topology?limit=50
 
 
 
